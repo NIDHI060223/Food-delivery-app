@@ -187,7 +187,113 @@
     margin-top: 15px;
     font-size: 18px;
   }
-  
+
+  /* Home 4.0 promotion */
+
+  .promotion_section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: var(--light-grey);
+  }
+  .promotion_section h2{
+    font-size:3.25rem;
+    margin-bottom:25px;
+  }
+  .promotion_section p{
+    font-size: 1.125rem;
+  }
+  .promotion_section h2{
+    padding-left:15px;
+  }
+
+  /*home 5.0 parallax*/
+
+  .bg_parallax_scroll{
+    background: url('../assets/parallax/bg.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    height:700px;
+  }
+
+  /* home 6.0 shop */
+
+  .shop_section{
+     padding: 100px 0 0;
+     background: var(--yellow);
+  }
+  .shop_section h4{
+    font-size: 2.375rem;
+    font-weight: 400;
+    color: var(--bg-coffee);
+  }
+  .shop_section h2{
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: var(--bg-coffee);
+  }
+  .shop_section p{
+    font-size: 1.125rem;
+    padding-right: 10%;
+    color: var(--bg-coffee);
+    margin-bottom: 40px;
+  }
+  .shop_section .store{
+    max-width:40%;
+  }
+  .shop_section .e-shop{
+    text-align: center;
+  }
+  .brand_section{
+    padding: 70px 0 40px;
+    background: var(--light-grey);
+    overflow: hidden;
+  }
+  .brand_section .brand_img{
+    width:180px;
+    height:auto;
+  }
+  .carousel.slide .carousel-inner{
+    overflow: unset;
+  }
+  .carousel.slide .carousel-inner .carousel-caption{
+    position:relative;
+    right:unset;
+    left:unset;
+  }
+
+  /* Home blog 7.0 */
+
+  .blog_section{
+    padding: 80px 0 40px;
+    background: url('../assets/blog/reviews.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .blog_section .user_img img{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-bottom: 25px;
+  }
+  .blog_section .carousel.slide .carousel-inner .carousel-caption p{
+    font-size: 1.7rem;
+    line-height: 1.45;
+    font-weight: 400;
+    padding: 0 12%;
+    margin-bottom: 25px;
+  }
+  .blog_section .carousel.slide .carousel-inner .carousel-caption .item_rating i{
+    color: var(--yellow);
+    margin-right: 5px;
+  }
+  .blog_section .carousel.slide .carousel-inner .carousel-caption h5{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
   
   /* Media Query Mobiles */
 
